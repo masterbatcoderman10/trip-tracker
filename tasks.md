@@ -52,16 +52,16 @@
 ### 2.3 Storage Configuration
 - [x] Create `trip-images` storage bucket in Supabase
 - [x] Create storage policy for `trip-images` bucket (user can only access {user_id}/*)
-- [ ] Create `vehicle-images` storage bucket in Supabase
-- [ ] Create storage policy for `vehicle-images` bucket
+- [x] Create `vehicle-images` storage bucket in Supabase
+- [x] Create storage policy for `vehicle-images` bucket
 
 ### 2.4 Database Functions & Triggers
-- [ ] Create trigger to auto-create profile on user signup
-- [ ] Create function to calculate trip distance (end_odometer - start_odometer)
-- [ ] Create function to calculate trip duration
-- [ ] Create computed column or trigger for `calculated_distance`
-- [ ] Create function to get active trip for a user
-- [ ] Add database indexes for common queries (user_id, vehicle_id, status)
+- [x] Create trigger to auto-create profile on user signup
+- [x] Create function to calculate trip distance (end_odometer - start_odometer)
+- [x] Create function to calculate trip duration
+- [x] Create computed column or trigger for `calculated_distance`
+- [x] Create function to get active trip for a user
+- [x] Add database indexes for common queries (user_id, vehicle_id, status)
 
 ---
 
