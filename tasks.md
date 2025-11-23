@@ -68,14 +68,14 @@
 ## Phase 3: Authentication
 
 ### 3.1 Auth Pages
-- [ ] Create login page UI (`app/(auth)/login/page.tsx`)
-- [ ] Create signup page UI (`app/(auth)/signup/page.tsx`)
-- [ ] Implement email/password login flow
-- [ ] Implement email/password signup flow
-- [ ] Add form validation for auth forms
-- [ ] Add loading states for auth actions
-- [ ] Add error handling and display for auth errors
-- [ ] Create auth layout component
+- [x] Create login page UI (`app/(auth)/login/page.tsx`)
+- [x] Create signup page UI (`app/(auth)/signup/page.tsx`)
+- [x] Implement email/password login flow
+- [x] Implement email/password signup flow
+- [x] Add form validation for auth forms
+- [x] Add loading states for auth actions
+- [x] Add error handling and display for auth errors
+- [x] Create auth layout component
 
 ### 3.2 Auth Protection
 - [ ] Create middleware to protect authenticated routes
