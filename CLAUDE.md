@@ -125,3 +125,4 @@ Planned Edge Functions for analytics:
 - `analytics-cost`: Toll and fuel cost aggregation
 
 Use `chart.js` or `visx` for visualizations.
+- always make to use the following loop when development: read the task log, develop atom by atom, check for linter errors, fix any errors, once a phase is complete, mark of the tasks, then prompt user to test out features along with test instructions for full coverage.

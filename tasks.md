@@ -19,12 +19,12 @@
 - [x] Set up Supabase middleware for auth session management
 
 ### 1.3 Type Definitions
-- [ ] Create TypeScript types for `Profile` model
-- [ ] Create TypeScript types for `Vehicle` model
-- [ ] Create TypeScript types for `Trip` model
-- [ ] Create TypeScript types for `TripImage` model
-- [ ] Create TypeScript types for `TollRate` model
-- [ ] Create shared enums (UnitSystem, TripStatus, ImageType, etc.)
+- [x] Create TypeScript types for `Profile` model
+- [x] Create TypeScript types for `Vehicle` model
+- [x] Create TypeScript types for `Trip` model
+- [x] Create TypeScript types for `TripImage` model
+- [x] Create TypeScript types for `TollRate` model
+- [x] Create shared enums (UnitSystem, TripStatus, ImageType, etc.)
 
 ---
 
