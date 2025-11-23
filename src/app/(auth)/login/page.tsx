@@ -65,7 +65,7 @@ export default function LoginPage() {
             placeholder="you@example.com"
             required
             disabled={isLoading}
-            className="bg-white/50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 focus:border-cyan-500 dark:focus:border-cyan-400 focus:ring-cyan-500/20"
+            className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm"
           />
         </div>
 
@@ -91,13 +91,14 @@ export default function LoginPage() {
             placeholder="••••••••"
             required
             disabled={isLoading}
-            className="bg-white/50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 focus:border-cyan-500 dark:focus:border-cyan-400 focus:ring-cyan-500/20"
+            className="bg-white/60 dark:bg-slate-800/60 backdrop-blur-sm"
           />
         </div>
 
         <Button
           type="submit"
-          className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white shadow-lg shadow-cyan-500/50 dark:shadow-cyan-500/30"
+          size="lg"
+          className="w-full"
           disabled={isLoading}
         >
           {isLoading ? (

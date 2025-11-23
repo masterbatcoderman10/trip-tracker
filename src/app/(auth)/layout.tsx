@@ -11,18 +11,18 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen w-full relative flex items-center justify-center p-4">
+    <div className="min-h-screen w-full relative flex items-center justify-center px-4 py-8">
       {/* Gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100/50 via-purple-50/50 to-teal-100/50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950" />
 
       {/* Animated gradient orbs */}
-      <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-r from-cyan-400/30 to-blue-400/30 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-r from-teal-400/30 to-emerald-400/30 rounded-full blur-3xl animate-pulse delay-1000" />
+      <div className="absolute top-20 left-10 md:left-20 w-72 h-72 md:w-96 md:h-96 bg-gradient-to-r from-blue-300/20 to-purple-300/20 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-20 right-10 md:right-20 w-72 h-72 md:w-96 md:h-96 bg-gradient-to-r from-teal-300/20 to-cyan-300/20 rounded-full blur-3xl animate-pulse delay-1000" />
 
       {/* Glassmorphism container */}
-      <div className="relative w-full max-w-md">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-teal-500/10 rounded-2xl blur-xl" />
-        <div className="relative bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl rounded-2xl border border-white/20 dark:border-slate-700/50 shadow-2xl p-8">
+      <div className="relative w-full max-w-md mx-auto">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-200/10 via-purple-200/10 to-teal-200/10 rounded-3xl blur-2xl" />
+        <div className="relative bg-white/50 dark:bg-slate-900/40 backdrop-blur-2xl rounded-3xl border border-white/40 dark:border-slate-700/30 shadow-2xl shadow-black/5 p-6 md:p-8">
           {children}
         </div>
       </div>
